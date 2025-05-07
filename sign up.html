@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            body{
+            font-family: cursive;
+            align-items: center;
+            background-color: rgb(12, 12, 34);
+            color: white; 
+        }
+        .box{
+            height: 400px;
+            width: 400px;
+            border: 1px solid black;
+            background-color: gray;
+            text-align: center;
+            position: relative;
+            right: 60px;
+            border-radius: 5px;
+        }
+        .signup{
+            position: relative;
+            left: 550px;
+            top: 100px;
+        }
+        input{
+            width: 300px;
+            height: 50px;
+            border-radius: 8px;
+            margin: 16px;
+            text-align: center;
+        }
+        a{
+            background-color: orangered;
+            border-radius: 8px;
+            width: 100px;
+            height: 40px;
+            margin: 16px;
+            text-decoration: none;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            left: 128px;
+            bottom: 60px;
+        }
+        h1{
+            position: relative;
+            left: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div class="signup">
+        <h1>Login page</h1>
+        <div class="box">
+            <input type="text" placeholder="username">
+            <input type="email" placeholder="email or phone">
+            <input type="password" placeholder="password">
+            <a href="index.html">Log in</a>
+        </div>
+    </div>
+</body>
+</html>
